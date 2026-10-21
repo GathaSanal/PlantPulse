@@ -1,0 +1,82 @@
+.card {
+  background: #203247;
+  color: #f1f5f9;
+  border: 1px solid #34465c;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.normal {
+  background-color: #064e3b;
+  color: #6ee7b7;
+}
+
+.warning {
+  background-color: #78350f;
+  color: #fcd34d;
+}
+
+.critical {
+  background-color: #7f1d1d;
+  color: #fca5a5;
+}
+
+.readings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reading {
+  background: #172638;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #304155;
+}
+
+.readingHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.readingLabel {
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+.readingValue {
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.readingStatus {
+  margin-top: 10px;
+}

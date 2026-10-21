@@ -1,0 +1,61 @@
+
+/* Global PlantPulse styling */
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #0f172a;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+body {
+  min-width: 320px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #0f172a;
+}
+
+p {
+  line-height: 1.5;
+}

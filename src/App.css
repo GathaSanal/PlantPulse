@@ -1,0 +1,147 @@
+
+/* ======================================
+   MAIN APPLICATION
+   ====================================== */
+
+.app {
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: Arial, sans-serif;
+}
+
+/* ======================================
+   PLANTPULSE HEADER - NAVY BLUE
+   ====================================== */
+
+.header {
+  background-color: #172638;
+  border-bottom: 1px solid #304155;
+  padding: 24px 36px;
+}
+
+/* ======================================
+   BRAND / LOGO
+   ====================================== */
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  color: #34d399;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.brandName {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subtitle {
+  margin: 5px 0 0;
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+/* ======================================
+   NAVIGATION
+   ====================================== */
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.navLink {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.navLink:hover {
+  background-color: #304155;
+  color: #ffffff;
+}
+
+.activeLink {
+  background-color: #065f46;
+  color: #ffffff;
+}
+
+.activeLink:hover {
+  background-color: #047857;
+}
+
+/* ======================================
+   MAIN CONTENT - WHITE BACKGROUND
+   ====================================== */
+
+.content {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  background-color: #ffffff;
+  color: #0f172a;
+  min-width: 0;
+}
+
+/* ======================================
+   RESPONSIVE DESIGN
+   ====================================== */
+
+@media (max-width: 600px) {
+  .header {
+    padding: 20px 16px;
+  }
+
+  .brandName {
+    font-size: 23px;
+  }
+
+  .nav {
+    gap: 8px;
+    margin-top: 18px;
+  }
+
+  .navLink {
+    padding: 9px 12px;
+    font-size: 13px;
+  }
+
+  .content {
+    padding: 20px 16px;
+  }
+}
+
+.alertCount {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  margin-left: 8px;
+
+  border-radius: 999px;
+  background-color: #dc2626;
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
